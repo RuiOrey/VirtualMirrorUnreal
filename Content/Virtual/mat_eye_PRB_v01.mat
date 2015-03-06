@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mat_eye_PRB_v01
+  m_Shader: {fileID: 4800000, guid: 28d7cdb07dc7abd449815c7e995eeb37, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 00dd501e498071241b033530a554b69b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TranslucencyMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 875bdb6f533624f4a88d36b502259a39, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SubdermisTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 6.71816874
+      data:
+        first:
+          name: _SpecInt
+        second: 1
+      data:
+        first:
+          name: _Fresnel
+        second: 0
+      data:
+        first:
+          name: _Subdermis
+        second: 0
+      data:
+        first:
+          name: _Translucency
+        second: .714285731
+      data:
+        first:
+          name: _TranslucencySky
+        second: .357142866
+      data:
+        first:
+          name: _Fuzz
+        second: 0
+      data:
+        first:
+          name: _FuzzScatter
+        second: 0
+      data:
+        first:
+          name: _FuzzOcc
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .985294104, g: .985294104, b: .985294104, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .333801895, g: .338369489, b: .360294104, a: 1}
+      data:
+        first:
+          name: _TranslucencyColor
+        second: {r: .161764681, g: .161764681, b: .161764681, a: 1}
+      data:
+        first:
+          name: _SubdermisColor
+        second: {r: .992647052, g: .908886015, b: .233564004, a: 1}
+      data:
+        first:
+          name: _FuzzColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _MainTexTiling
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecTexTiling
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _BumpMapTiling
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _SubdermisTexTiling
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _TranslucencyMapTiling
+        second: {r: 1, g: 1, b: 0, a: 0}
